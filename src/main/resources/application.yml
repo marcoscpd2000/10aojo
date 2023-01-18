@@ -10,9 +10,12 @@ spring:
     #url: jdbc:mysql://${DB_HOSTNAME}:${DB_PORT}/${DB_NAME}
     #username: ${DB_USERNAME}
     #password: ${DB_PASSWORD}
-    url: jdbc:mysql:database-1.cakjww6trexp.us-east-1.rds.amazonaws.com:3306/abctech
-    username: Admin
-    password: cantagalo159654
+    #url: jdbc:mysql:database-1.cakjww6trexp.us-east-1.rds.amazonaws.com:3306/abctech
+    #username: Admin
+    #password: cantagalo159654
+    url: jdbc:mysql://localhost:3306/abc_tech
+    username: root
+    password: Fiap1234
   jpa:
     hibernate:
       ddl-auto: create
