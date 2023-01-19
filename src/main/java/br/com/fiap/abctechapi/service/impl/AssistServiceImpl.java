@@ -1,16 +1,19 @@
 package br.com.fiap.abctechapi.service.impl;
 
 import br.com.fiap.abctechapi.model.Assist;
-import br.com.fiap.abctechapi.repository.AssistRepository;
+
 import br.com.fiap.abctechapi.service.AssistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import br.com.fiap.abctechapi.repository.AssistRepository;
+
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 @Service
-public class AssistServiceImpl implements AssistService {
+public class  AssistServiceImpl implements AssistService {
 
 
     private final AssistRepository repository;
